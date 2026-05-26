@@ -18,19 +18,6 @@ Este diretório contém o cenário 3D do Gêmeo Digital construído no Factory I
 2. Acesse `File → Open Scene`.
 3. Navegue até este diretório e selecione `Esteira Exsto XC243 - Digital Twin.factoryio`.
 
-## Componentes Principais da Cena
-
-| Componente | Quantidade | Função |
-|---|---|---|
-| Esteira transportadora | 2 segmentos (2 m + 6 m) | Transporte das peças |
-| Sensor difuso (alturas G, M, P) | 3 | Classificação dimensional |
-| Sensor capacitivo | 1 | Gatilho de início do ciclo |
-| Sensor indutivo | 1 | Detecção de material metálico |
-| Sensor difuso (rampas) | 4 | Confirmação de chegada nos setores A, B, C e Despacho |
-| Separador por braço pivotante | 3 | Desvio para os setores A, B e C |
-| Emissor de peças | 1 | Geração dos itens (peças plásticas e metálicas) |
-| Removedor | 4 | Destrói as peças após chegada no setor |
-
 ## Configuração do Driver
 
 Para conectar com o S7-PLCSim Advanced em ambiente SIL:
@@ -49,7 +36,7 @@ Após a conexão estabelecida, mapeie os tags conforme a tabela de I/O documenta
 | Componente | Versão Mínima |
 |---|---|
 | Factory I/O | 2.5.4 |
-| S7-PLCSim Advanced | V2.0 |
+| S7-PLCSim Advanced | V6.0 |
 | Sistema Operacional | Windows 10/11 |
 
 Veja o [README principal](../README.md) para o passo a passo completo de execução.
