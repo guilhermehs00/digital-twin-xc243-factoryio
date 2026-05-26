@@ -1,0 +1,116 @@
+# ============================================================================
+# .gitignore para projeto de Gêmeo Digital — TIA Portal + Factory I/O
+# ============================================================================
+
+# ----------------------------------------------------------------------------
+# TIA Portal — arquivos temporários e de compilação
+# ----------------------------------------------------------------------------
+
+# Backup automático do TIA Portal
+*.zap14_old
+*.zap15_old
+*.zap16_old
+*.zap17_old
+*.zap18_old
+*.ap14_old
+*.ap15_old
+
+# Pasta de trabalho temporária do TIA Portal
+~$*
+~AutoSave-*
+*.bak
+
+# Logs do TIA Portal
+*.log
+*.tmp
+
+# Configurações locais (não devem ser versionadas)
+Settings/
+Logs/
+Temp/
+
+# ----------------------------------------------------------------------------
+# Factory I/O — arquivos temporários e cache
+# ----------------------------------------------------------------------------
+
+# Cache do Factory I/O
+*.factoryio.bak
+*.factoryio_backup
+
+# Logs da aplicação
+factoryio.log
+errors.log
+
+# ----------------------------------------------------------------------------
+# Sistema operacional — Windows
+# ----------------------------------------------------------------------------
+
+# Arquivos de sistema do Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Arquivos do Windows Explorer
+*.stackdump
+
+# ----------------------------------------------------------------------------
+# Sistema operacional — macOS
+# ----------------------------------------------------------------------------
+
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# ----------------------------------------------------------------------------
+# Sistema operacional — Linux
+# ----------------------------------------------------------------------------
+
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+
+# ----------------------------------------------------------------------------
+# Editores e IDEs
+# ----------------------------------------------------------------------------
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# JetBrains
+.idea/
+*.iml
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# ----------------------------------------------------------------------------
+# Documentação — arquivos auxiliares do LaTeX (caso adicione TCC no futuro)
+# ----------------------------------------------------------------------------
+
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.lof
+*.lot
+*.out
+*.synctex.gz
+*.toc
+
+# ----------------------------------------------------------------------------
+# Arquivos pessoais ou sensíveis
+# ----------------------------------------------------------------------------
+
+# Não versionar credenciais, IPs reais de rede ou dados pessoais
+*.credentials
+secrets.txt
+.env

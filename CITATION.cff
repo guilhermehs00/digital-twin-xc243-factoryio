@@ -1,0 +1,41 @@
+cff-version: 1.2.0
+message: "Se este trabalho for útil em sua pesquisa ou projeto, por favor cite-o conforme abaixo."
+type: software
+title: "Gêmeo Digital utilizando Factory I/O para a planta XC243"
+abstract: >
+  Desenvolvimento e validação de um Gêmeo Digital para comissionamento virtual
+  da bancada didática XC243 (EXSTO Tecnologia), com processo de seleção de
+  peças por material e altura. O modelo virtual foi construído no Factory I/O
+  e integrado a um controlador Siemens emulado pelo S7-PLCSim Advanced por
+  meio da técnica Software-in-the-Loop (SIL). Inclui programa em linguagem
+  Ladder estruturado em FCs e DBs, validado em duas fases (virtual e físico)
+  com base em quatro métricas formais.
+authors:
+  - family-names: Salvador
+    given-names: Guilherme
+    affiliation: "Universidade Federal de Lavras (UFLA)"
+date-released: 2026
+license: CC-BY-4.0
+repository-code: "https://github.com/guilhermehs00/digital-twin-xc243-factoryio"
+keywords:
+  - Digital Twin
+  - Gêmeo Digital
+  - Factory I/O
+  - Virtual Commissioning
+  - Software-in-the-Loop
+  - Siemens S7-1200
+  - Siemens S7-1500
+  - PLC
+  - Industrial Automation
+  - TIA Portal
+preferred-citation:
+  type: thesis
+  title: "Gêmeo Digital utilizando Factory I/O para a planta XC243"
+  authors:
+    - family-names: Salvador
+      given-names: Guilherme
+  thesis-type: "Trabalho de Conclusão de Curso"
+  institution:
+    name: "Universidade Federal de Lavras"
+    address: "Lavras, MG, Brasil"
+  year: 2026
