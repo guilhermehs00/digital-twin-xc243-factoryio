@@ -80,9 +80,9 @@ Este projeto implementa um Gêmeo Digital da bancada didática **XC243 (EXSTO Te
 ### Cenário Virtual no Factory I/O
 
 <p align="center">
-  <img src="docs/screenshots/gemeio_digital_OK.png" alt="Gêmeo Digital rodando no Factory I/O" width="700"/>
+  <img src="docs/screenshots/Planta_Virtual.png" alt="Gêmeo Digital no Factory I/O" width="700"/>
   <br>
-  <em>Figura 1 — Vista geral do Gêmeo Digital da bancada XC243 em operação no Factory I/O.</em>
+  <em>Figura 1 — Vista geral do Gêmeo Digital da bancada XC243 no Factory I/O.</em>
 </p>
 
 ### Bancada Física XC243
@@ -93,40 +93,23 @@ Este projeto implementa um Gêmeo Digital da bancada didática **XC243 (EXSTO Te
   <em>Figura 2 — Bancada didática XC243 da EXSTO Tecnologia, com esteira transportadora, sensores e atuadores pneumáticos.</em>
 </p>
 
-### Lógica de Controle (TIA Portal)
+### Comunicação na Fase I (Software-in-the-Loop)
 
 <p align="center">
-  <img src="docs/screenshots/Monitoramento_TIA_Portal.png" alt="Monitoramento da lógica no TIA Portal" width="700"/>
+  <img src="docs/screenshots/Comunicao_FASE_I.png" alt="Comunicação na Fase I — SIL" width="700"/>
   <br>
-  <em>Figura 3 — Monitoramento online do programa em linguagem Ladder no TIA Portal, com FCs e DBs em execução.</em>
+  <em>Figura 3 — Arquitetura de comunicação na Fase I: Factory I/O integrado ao S7-PLCSim Advanced via TIA Portal.</em>
 </p>
 
-### Comunicação Software-in-the-Loop
+### Comunicação na Fase II (Hardware Real)
 
 <p align="center">
-  <img src="docs/screenshots/comunicacao_TIA_PLCSim.png" alt="Comunicação TIA Portal + PLCSim + Factory I/O" width="700"/>
+  <img src="docs/screenshots/Comunicao_FASE_II.png" alt="Comunicação na Fase II — Hardware físico" width="700"/>
   <br>
-  <em>Figura 4 — Diagrama de comunicação SIL entre o TIA Portal, o S7-PLCSim Advanced e o Factory I/O.</em>
-</p>
-
-### Comparação Fase I × Fase II
-
-<p align="center">
-  <img src="docs/screenshots/fase_i_fase_ii.png" alt="Comparação entre comissionamento virtual e implementação física" width="700"/>
-  <br>
-  <em>Figura 5 — Execução do mesmo programa de controle nas duas fases: ambiente virtual (Fase I) e bancada física (Fase II).</em>
-</p>
-
-### CLP Físico com Módulo de Expansão
-
-<p align="center">
-  <img src="docs/screenshots/com_fio_PLC_OK.png" alt="CLP S7-1200 com Signal Board SB 1232" width="500"/>
-  <br>
-  <em>Figura 6 — CLP Siemens S7-1200 CPU 1214C com a placa de sinal SB 1232 AQ e fiação conectada à bancada XC243.</em>
+  <em>Figura 4 — Arquitetura de comunicação na Fase II: bancada XC243 conectada diretamente ao CLP S7-1200 via fiação elétrica.</em>
 </p>
 
 ---
-
 ## 📁 Estrutura do Repositório
 
 ```
