@@ -141,7 +141,7 @@ digital-twin-xc243-factoryio/
 | Ferramenta | Versão | Função |
 |---|---|---|
 | **TIA Portal** | V14 ou superior | Programação do CLP e configuração de hardware |
-| **S7-PLCSim Advanced** | V2.0 ou superior | Emulação da CPU S7-1511-1 PN |
+| **S7-PLCSim Advanced** | V6.0 ou superior | Emulação da CPU S7-1511-1 PN |
 | **Factory I/O** | 2.5.4 ou superior | Simulação 3D do Gêmeo Digital |
 | **Sistema Operacional** | Windows 10/11 | Plataforma hospedeira (com virtualização habilitada) |
 
