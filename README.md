@@ -80,15 +80,15 @@ Este projeto implementa um Gêmeo Digital da bancada didática **XC243 (EXSTO Te
 ### Cenário Virtual no Factory I/O
 
 <p align="center">
-  <img src="docs/screenshots/01_cena_factoryio.png" alt="Cena completa no Factory I/O" width="700"/>
+  <img src="docs/screenshots/gemeio_digital_OK.png" alt="Gêmeo Digital rodando no Factory I/O" width="700"/>
   <br>
-  <em>Figura 1 — Vista geral do Gêmeo Digital da bancada XC243 no Factory I/O.</em>
+  <em>Figura 1 — Vista geral do Gêmeo Digital da bancada XC243 em operação no Factory I/O.</em>
 </p>
 
 ### Bancada Física XC243
 
 <p align="center">
-  <img src="docs/screenshots/02_planta_fisica.png" alt="Bancada física XC243" width="700"/>
+  <img src="docs/screenshots/Planta_Fisica.PNG" alt="Bancada física XC243" width="700"/>
   <br>
   <em>Figura 2 — Bancada didática XC243 da EXSTO Tecnologia, com esteira transportadora, sensores e atuadores pneumáticos.</em>
 </p>
@@ -96,28 +96,34 @@ Este projeto implementa um Gêmeo Digital da bancada didática **XC243 (EXSTO Te
 ### Lógica de Controle (TIA Portal)
 
 <p align="center">
-  <img src="docs/screenshots/03_logica_ladder.png" alt="Lógica Ladder no TIA Portal" width="700"/>
+  <img src="docs/screenshots/Monitoramento_TIA_Portal.png" alt="Monitoramento da lógica no TIA Portal" width="700"/>
   <br>
-  <em>Figura 3 — Programa em linguagem Ladder estruturado em Funções (FCs) e Blocos de Dados (DBs).</em>
+  <em>Figura 3 — Monitoramento online do programa em linguagem Ladder no TIA Portal, com FCs e DBs em execução.</em>
 </p>
 
-### Comunicação SIL
+### Comunicação Software-in-the-Loop
 
 <p align="center">
-  <img src="docs/screenshots/04_comunicacao_sil.png" alt="Comunicação TIA Portal + PLCSim + Factory I/O" width="700"/>
+  <img src="docs/screenshots/comunicacao_TIA_PLCSim.png" alt="Comunicação TIA Portal + PLCSim + Factory I/O" width="700"/>
   <br>
-  <em>Figura 4 — Diagrama de comunicação Software-in-the-Loop entre o TIA Portal, S7-PLCSim Advanced e Factory I/O.</em>
+  <em>Figura 4 — Diagrama de comunicação SIL entre o TIA Portal, o S7-PLCSim Advanced e o Factory I/O.</em>
+</p>
+
+### Comparação Fase I × Fase II
+
+<p align="center">
+  <img src="docs/screenshots/fase_i_fase_ii.png" alt="Comparação entre comissionamento virtual e implementação física" width="700"/>
+  <br>
+  <em>Figura 5 — Execução do mesmo programa de controle nas duas fases: ambiente virtual (Fase I) e bancada física (Fase II).</em>
 </p>
 
 ### CLP Físico com Módulo de Expansão
 
 <p align="center">
-  <img src="docs/screenshots/05_clp_fisico.png" alt="CLP S7-1200 com Signal Board SB 1232" width="500"/>
+  <img src="docs/screenshots/com_fio_PLC_OK.png" alt="CLP S7-1200 com Signal Board SB 1232" width="500"/>
   <br>
-  <em>Figura 5 — CLP Siemens S7-1200 CPU 1214C com a placa de sinal SB 1232 AQ instalada.</em>
+  <em>Figura 6 — CLP Siemens S7-1200 CPU 1214C com a placa de sinal SB 1232 AQ e fiação conectada à bancada XC243.</em>
 </p>
-
-> 💡 **Adicione suas próprias capturas** colocando arquivos `.png` na pasta `docs/screenshots/` e ajustando as referências acima.
 
 ---
 
