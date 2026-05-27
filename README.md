@@ -2,6 +2,7 @@
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![TIA Portal](https://img.shields.io/badge/TIA%20Portal-V14-blue.svg)](https://www.siemens.com)
+[![PLCSim Advanced](https://img.shields.io/badge/PLCSim%20Advanced-V6.0-yellow.svg)](https://www.siemens.com)
 [![Factory I/O](https://img.shields.io/badge/Factory%20I%2FO-2.5.4-orange.svg)](https://factoryio.com)
 [![PLC](https://img.shields.io/badge/PLC-Siemens%20S7--1200-red.svg)](https://www.siemens.com)
 
