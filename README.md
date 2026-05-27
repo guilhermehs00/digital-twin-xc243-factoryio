@@ -13,16 +13,16 @@
 ## 📑 Sumário
 
 - [Visão Geral](#-visão-geral)
-- [Arquitetura do Projeto](#-arquitetura-do-projeto)
+- [Arquitetura do Projeto](#️-arquitetura-do-projeto)
 - [Demonstração em Vídeo](#-demonstração-em-vídeo)
-- [Galeria de Screenshots](#-galeria-de-screenshots)
+- [Galeria de Screenshots](#️-galeria-de-screenshots)
 - [Estrutura do Repositório](#-estrutura-do-repositório)
-- [Requisitos](#-requisitos)
-- [Como Executar](#-como-executar)
+- [Requisitos](#️-requisitos)
+- [Como Executar](#️-como-executar)
 - [Resultados Obtidos](#-resultados-obtidos)
 - [Trabalho Acadêmico](#-trabalho-acadêmico)
 - [Citação](#-citação)
-- [Autor](#-autor)
+- [Autor](#‍-autor)
 - [Licença](#-licença)
 
 ---
@@ -142,7 +142,7 @@ digital-twin-xc243-factoryio/
 | Ferramenta | Versão | Função |
 |---|---|---|
 | **TIA Portal** | V14 ou superior | Programação do CLP e configuração de hardware |
-| **S7-PLCSim Advanced** | V6.0 ou superior | Emulação da CPU S7-1511-1 PN |
+| **S7-PLCSim Advanced** | V6.0 | Emulação da CPU S7-1511-1 PN |
 | **Factory I/O** | 2.5.4 ou superior | Simulação 3D do Gêmeo Digital |
 | **Sistema Operacional** | Windows 10/11 | Plataforma hospedeira (com virtualização habilitada) |
 
@@ -217,7 +217,7 @@ A validação foi conduzida com base em **quatro métricas formais** e os princi
 
 ## 📖 Trabalho Acadêmico
 
-A monografia completa do TCC está disponível no **Repositório Institucional da UFLA**:
+A monografia completa do TCC estará disponível, em breve, no **Repositório Institucional da UFLA**:
 
 [🔗 Acessar TCC no Repositório UFLA](http://repositorio.ufla.br) <!-- Substitua pelo link direto após depósito -->
 
